@@ -1,10 +1,21 @@
-# declaretion / syntax
+
 myDict = {
-    "name" : "Mahin Jaman",
-    "age" : 19,
-    "subject" : {
-        "main" : "English",
-        "subMain": "Math",
-        "Extra" : "Bangla"
+    "Mahin":{
+        "Name": "Mahin Jaman",
+        "location": "Dhaka, Bangladesh",
+        "study": "10",
+        "group": "Science",
+        "age": 19
+    },
+
+    "Rahim":{
+    "Name": "Rahim Ahmed",
+        "location": "Dhaka, Bangladesh",
+        "study": "11",
+        "group": "Arts",
+        "age": 20
     }
-}
+};
+
+Mahin = myDict["Mahin"];
+print(Mahin["age"])
