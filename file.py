@@ -30,3 +30,6 @@ import  os
 # remove folder
 
 # os.rmdir("Hello BD")
+
+
+# os.remove("text.text")
